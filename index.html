@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="Download Manager by Aashir Sheraz. A free Windows desktop app for organizing downloads, parallel connections and browser handoff."
+    />
+    <meta name="theme-color" content="#005be8" />
+    <meta property="og:title" content="Download Manager | Free for Windows" />
+    <meta
+      property="og:description"
+      content="Organize your downloads in one Windows app. Free to use, with a companion extension for Chrome and Edge."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://simplyaashir.github.io/download-manager/" />
+    <meta
+      property="og:image"
+      content="https://simplyaashir.github.io/download-manager/assets/logo.png"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>Download Manager | Free for Windows</title>
+    <link rel="canonical" href="https://simplyaashir.github.io/download-manager/" />
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="preload" as="image" href="assets/app-blue.png" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="header wrap">
+      <a class="brand" href="./" aria-label="Download Manager home"
+        ><img src="assets/logo.png" width="48" height="48" alt="" /><span
+          >Download Manager</span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a><a href="#installation">Installation</a
+        ><a href="mailto:maashirsheraz@gmail.com">Support</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Free for Windows</p>
+          <h1 id="hero-title">Downloads,<br />under control.</h1>
+          <p class="intro">
+            Keep files, media and browser downloads together in one desktop app.
+          </p>
+          <div class="actions">
+            <a class="button primary" data-download href="#release-status"
+              >Download for Windows</a
+            ><a class="text-link" href="#installation">Installation</a>
+          </div>
+        </div>
+        <figure class="preview">
+          <img
+            id="app-preview"
+            src="assets/app-blue.png"
+            width="1100"
+            height="720"
+            alt="Download Manager Settings in the Blue theme, showing appearance and download controls"
+            fetchpriority="high"
+          />
+          <figcaption>
+            <span>Make it yours.</span>
+            <div class="theme-picker" role="group" aria-label="Preview app themes">
+              <button
+                class="swatch light"
+                data-preview="light"
+                aria-label="Preview Light theme"
+                aria-pressed="false"
+              ></button
+              ><button
+                class="swatch dark"
+                data-preview="dark"
+                aria-label="Preview Dark theme"
+                aria-pressed="false"
+              ></button
+              ><button
+                class="swatch blue"
+                data-preview="blue"
+                aria-label="Preview Blue theme"
+                aria-pressed="true"
+              ></button
+              ><button
+                class="swatch green"
+                data-preview="green"
+                aria-label="Preview Green theme"
+                aria-pressed="false"
+              ></button>
+            </div>
+          </figcaption>
+        </figure>
+      </section>
+      <div class="compatibility wrap" aria-label="Download details">
+        <p>Windows 10 / 11 <strong>64-bit Intel &amp; AMD</strong></p>
+        <p>Prepared release <strong>1.0.3</strong></p>
+        <p>Price <strong>Free to use</strong></p>
+        <p>Installer <strong>236 MiB</strong></p>
+      </div>
+      <section
+        id="release-status"
+        class="wrap release-status"
+        aria-labelledby="release-title"
+      >
+        <h2 id="release-title">Windows download is being prepared.</h2>
+        <p>
+          We're completing the source-code package required by the bundled media tools'
+          licenses. The public installer will appear here when that is ready.
+        </p>
+      </section>
+      <section
+        id="features"
+        class="features wrap section"
+        aria-labelledby="features-title"
+      >
+        <div class="section-heading">
+          <h2 id="features-title">One place for<br />the next download.</h2>
+          <p>
+            Start with a link. Keep track of your queue, choose your settings, and let the
+            app work in the background.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-symbol" aria-hidden="true">↗</span>
+            <h3>Parallel connections</h3>
+            <p>
+              Use multiple connections for compatible file downloads. Speed depends on the
+              server and your connection.
+            </p>
+          </article>
+          <article>
+            <span class="feature-symbol" aria-hidden="true">＋</span>
+            <h3>Browser handoff</h3>
+            <p>
+              Send links from Chrome or Edge using the included companion extension.
+              One-time browser setup is required.
+            </p>
+          </article>
+          <article>
+            <span class="feature-symbol" aria-hidden="true">▤</span>
+            <h3>A queue you can follow</h3>
+            <p>
+              See progress and history, choose a download folder, and set how many
+              downloads run at once.
+            </p>
+          </article>
+          <article>
+            <span class="feature-symbol" aria-hidden="true">◒</span>
+            <h3>Your desktop, your theme</h3>
+            <p>
+              Choose Light, Dark, Blue or Green, or follow your system. Closing the window
+              keeps the app in the tray.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        id="installation"
+        class="installation section"
+        aria-labelledby="install-title"
+      >
+        <div class="wrap install-grid">
+          <div>
+            <h2 id="install-title">A few minutes<br />to get started.</h2>
+            <p class="section-intro">
+              The installer includes the app and media tools. No separate Node.js, Python
+              or FFmpeg installation is needed.
+            </p>
+            <a class="text-link" href="#release-status">Release status</a>
+          </div>
+          <ol class="steps">
+            <li>
+              <h3>Download and install</h3>
+              <p>
+                Get the Windows installer above, run it, then select
+                <strong>Run Download Manager</strong>. It installs for your Windows user
+                without admin rights.
+              </p>
+            </li>
+            <li>
+              <h3>Connect your browser</h3>
+              <p>
+                Right-click the app's tray icon and choose
+                <strong>Set up browser extension</strong>. Copy the extension folder path
+                from the dialog.
+              </p>
+              <div class="browser-tools">
+                <button class="copy-address" data-copy="chrome://extensions">
+                  Copy Chrome address</button
+                ><button class="copy-address" data-copy="edge://extensions">
+                  Copy Edge address
+                </button>
+              </div>
+              <p>
+                Paste the address into your browser. Enable
+                <strong>Developer mode</strong>, choose <strong>Load unpacked</strong>,
+                and select the extension folder. Repeat for each browser profile.
+              </p>
+            </li>
+            <li>
+              <h3>Start a download</h3>
+              <p>
+                Paste a link in the app or send it using the extension. Automatic browser
+                handoff can be enabled in the extension popup.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="faq wrap section" aria-labelledby="faq-title">
+        <h2 id="faq-title">Before you download.</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Is Download Manager free?</summary>
+            <p>
+              Yes. Anyone can use Download Manager for free. The app remains copyrighted
+              by Aashir Sheraz; third-party components retain their own licenses.
+            </p>
+          </details>
+          <details>
+            <summary>Which PCs does it support?</summary>
+            <p>
+              This installer is for Windows 10 and 11 on 64-bit Intel or AMD PCs. It is
+              not a 32-bit, macOS, Linux or native Windows ARM build. Installation was
+              tested on Windows 10.
+            </p>
+          </details>
+          <details>
+            <summary>Why might Windows show a warning?</summary>
+            <p>
+              The current installer is unsigned, so Windows may show an unknown-publisher
+              or reputation warning. Download from this website's GitHub release and
+              compare the SHA-256 checksum. A checksum confirms file integrity; it is not
+              a publisher signature.
+            </p>
+          </details>
+          <details>
+            <summary>Does it start with Windows?</summary>
+            <p>
+              A fresh install enables background startup after Windows sign-in. You can
+              change <strong>Start with Windows</strong> in the tray menu. Closing the
+              window keeps the app active; choose <strong>Quit</strong> from the tray to
+              stop it.
+            </p>
+          </details>
+          <details>
+            <summary>Does the extension install automatically?</summary>
+            <p>
+              The extension files come with the app, but Chrome and Edge require the
+              one-time Load unpacked step above. It is not currently published in a
+              browser extension store. After an app upgrade, reload the extension or
+              restart the browser.
+            </p>
+          </details>
+          <details>
+            <summary>Can it download any video?</summary>
+            <p>
+              Media extraction depends on support for the website and format. Protected or
+              sign-in-only media may not work. Only download content you have permission
+              to save.
+            </p>
+          </details>
+          <details>
+            <summary>What information does this website collect?</summary>
+            <p>
+              This page has no analytics, advertising, forms or tracking cookies. GitHub
+              hosts the website and installer and may process request information under
+              its
+              <a
+                href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+                >privacy statement</a
+              >. Download requests go to GitHub. Support email uses your email provider.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section class="support wrap" aria-labelledby="support-title">
+        <div>
+          <h2 id="support-title">Need a hand?</h2>
+          <p>
+            Include your Windows version, app version, and a description of the problem.
+            Avoid sending passwords or private download links.
+          </p>
+        </div>
+        <a class="text-link" href="mailto:maashirsheraz@gmail.com"
+          >maashirsheraz@gmail.com</a
+        >
+      </section>
+    </main>
+    <footer class="footer wrap">
+      <p>© 2026 Aashir Sheraz. All rights reserved.</p>
+      <div>
+        <a href="third-party.html">Third-party notices</a
+        ><a href="https://github.com/simplyAashir/download-manager">GitHub</a>
+      </div>
+    </footer>
+    <p id="copy-status" class="sr-only" role="status" aria-live="polite"></p>
+  </body>
+</html>

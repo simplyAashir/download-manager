@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://simplyaashir.github.io/download-manager/sitemap.xml
